@@ -1,0 +1,15 @@
+# General
+pos_coords  = ['x', 'y', 'z']
+quat_coords = ['qw', 'qx', 'qy', 'qz']
+dt = 0.005          # Sampling time [s]
+
+# AutoReg
+train_trace = "3.csv"  # User trace in dataset-path from which the AutoReg models are created
+model_dir = "autoreg_models"
+
+# Kalman filter
+dim_x = 14          # state vector dimension
+dim_z = 7           # measurement vector dimension
+var_R = 1e-6        # measurement noise variance
+var_Q_pos = 1e3     # process noise variance (positional components)
+var_Q_ang = 4e6     # process noise variance (angular components)
