@@ -37,6 +37,7 @@
 # NON-INFRINGEMENT WITH RESPECT TO THIS SOFTWARE.
 # '''
 
+#!/bin/sh
 # Interpolate traces to get a common temporal spacing (5 ms)
 python -m pred6dof prepare
 # Run predictors and baseline (no-prediction)
