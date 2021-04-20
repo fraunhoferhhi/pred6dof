@@ -1,3 +1,4 @@
+#!/bin/sh
 # '''
 # The copyright in this software is being made available under this Software
 # Copyright License. This software may be subject to other third party and
@@ -37,7 +38,7 @@
 # NON-INFRINGEMENT WITH RESPECT TO THIS SOFTWARE.
 # '''
 
-#!/bin/sh
+
 # Interpolate traces to get a common temporal spacing (5 ms)
 python -m pred6dof prepare
 # Run predictors and baseline (no-prediction)
